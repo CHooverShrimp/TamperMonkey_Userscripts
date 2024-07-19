@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Custom Image for Youtube Background
-// @namespace    https://github.com/CHooverShrimp
-// @version      0.3
+// @namespace    http://tampermonkey.net/
+// @version      0.4
 // @description  Replace the old boring flat background with whatever picture you like
 // @author       Hoover
 // @match        *://*.youtube.com/*
@@ -38,15 +38,17 @@
         background-position: center;
     `;
 
-    // Find the first #content div and apply the style
+    // Find the first #content div and apply the background style
     const firstContentDiv = document.querySelector("#content");
     if (firstContentDiv) {
         firstContentDiv.style.cssText += css;
     }
 
+    // Overriding and adding css styles
     let css2 = `
-    #guide,#chips-wrapper{
-        opacity: 0.9;
+    html[dark],
+    [dark] {
+  --yt-spec-base-background:#0f0f0fbf;
     }
     #cinematics-container{
         display: none;
@@ -58,25 +60,5 @@
         let styleNode = document.createElement("style");
         styleNode.appendChild(document.createTextNode(css2));
         (document.querySelector("head") || document.documentElement).appendChild(styleNode);
-    }
-
-    // Live chat transparency
-    // Have to overrride the whole style block for this to work
-    const overridenDarkStyle = `
-    html[dark],
-    [dark] {
-    --yt-spec-base-background:#0f0f0fbf;
-    }
-    `
-
-    // Create a new <style> element
-    const styleElement = document.createElement('style');
-    styleElement.type = 'text/css';
-    styleElement.appendChild(document.createTextNode(overridenDarkStyle));
-
-    // Append the <style> element to the document's <head>
-    const head = document.head || document.getElementsByTagName('head')[0];
-    if (head) {
-        head.appendChild(styleElement);
     }
 })();
