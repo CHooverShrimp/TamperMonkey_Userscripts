@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Custom Image for Youtube Background
 // @namespace    http://tampermonkey.net/
-// @version      0.4
+// @version      0.5
 // @description  Replace the old boring flat background with whatever picture you like
 // @author       Hoover
 // @match        *://*.youtube.com/*
@@ -30,35 +30,28 @@
     // Select only one image from the array
     let bgImage = getRandomImageUrl(bgSources);
 
+    // Overriding and adding css styles
     let css = `
+    ytd-app {
         background-image: url(${bgImage});
         background-attachment: fixed;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-    `;
-
-    // Find the first #content div and apply the background style
-    const firstContentDiv = document.querySelector("#content");
-    if (firstContentDiv) {
-        firstContentDiv.style.cssText += css;
     }
-
-    // Overriding and adding css styles
-    let css2 = `
     html[dark],
     [dark] {
-  --yt-spec-base-background:#0f0f0fbf;
+        --yt-spec-base-background:#0f0f0fbf;
     }
     #cinematics-container{
         display: none;
     }
     `;
     if (typeof GM_addStyle !== "undefined") {
-        GM_addStyle(css2);
+        GM_addStyle(css);
     } else {
         let styleNode = document.createElement("style");
-        styleNode.appendChild(document.createTextNode(css2));
+        styleNode.appendChild(document.createTextNode(css));
         (document.querySelector("head") || document.documentElement).appendChild(styleNode);
     }
 })();
