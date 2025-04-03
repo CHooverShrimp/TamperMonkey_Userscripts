@@ -9,6 +9,7 @@ Don't you love looking at your waifu while browsing your favourite Chinese carto
 ## Instruction
 * Install below
 * Paste the url of your waifus
+
 ![image](https://github.com/user-attachments/assets/ba3b2bb7-6c85-4cb9-95aa-f4d0292f2263)
 
 
