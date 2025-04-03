@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/5bf6fdd3-126e-4ec5-89b5-3ce394858cdc)Youtube Image Background
+Youtube Image Background
 ====================
 ## Why?
 Don't you love looking at your waifu while browsing your favourite Chinese cartoon website?
