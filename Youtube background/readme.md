@@ -15,4 +15,4 @@ Don't you love looking at your waifu while browsing your favourite slop website?
 
 
 ## Installation
-[CLICK HERE TO INSTALL](https://raw.githubusercontent.com/CHooverShrimp/TamperMonkey_Userscripts/refs/heads/main/4chan%20fix%20flag/4chanFixFlag.js)
+[CLICK HERE TO INSTALL](https://github.com/CHooverShrimp/TamperMonkey_Userscripts/raw/refs/heads/main/Youtube%20background/CustomYTBackground.js)
