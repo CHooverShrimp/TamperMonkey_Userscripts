@@ -10,7 +10,8 @@ Before
 
 
 After
-![image](https://github.com/user-attachments/assets/03b6a22f-f5b1-400b-babd-067fcbf584db)
+![image](https://github.com/user-attachments/assets/1fda1a73-6068-4910-ac50-4c7b5a5da6cd)
+
 
 
 ## Installation
