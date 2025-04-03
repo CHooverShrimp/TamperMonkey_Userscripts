@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Pony background 4chan
+// @name         4chan Image Background
 // @namespace    http://tampermonkey.net/
 // @version      2025-03-01
-// @description  try to take over the world!
+// @description  Stare at your waifu(s) as you doom scroll on some Swedish cartoon forum
 // @author       You
 // @include      http://boards.4chan.org/*
 // @include      https://boards.4chan.org/*
