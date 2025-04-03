@@ -15,4 +15,4 @@ Don't you love looking at your waifu while browsing your favourite slop website?
 
 
 ## Installation
-[CLICK HERE TO INSTALL](https://github.com/CHooverShrimp/TamperMonkey_Userscripts/raw/refs/heads/main/Youtube%20background/CustomYTBackground.js)
+[CLICK HERE TO INSTALL](https://github.com/CHooverShrimp/TamperMonkey_Userscripts/raw/refs/heads/main/Youtube%20background/CustomYTBackground.user.js)
