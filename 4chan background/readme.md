@@ -14,7 +14,7 @@ Don't you love looking at your waifu while browsing your favourite Chinese carto
 
 
 ## Installation
-[CLICK HERE TO INSTALL](https://raw.githubusercontent.com/CHooverShrimp/TamperMonkey_Userscripts/refs/heads/main/4chan%20fix%20flag/4chanFixFlag.js)
+[CLICK HERE TO INSTALL](https://github.com/CHooverShrimp/TamperMonkey_Userscripts/raw/refs/heads/main/4chan%20background/4chanBackground.user.js)
 
 ## Compatibility
 Confirmed working for 4chan-x
