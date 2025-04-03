@@ -4,4 +4,4 @@ YouTube Short Remover
 I hate YouTube short
 
 ## Installation
-[CLICK HERE TO INSTALL](https://github.com/CHooverShrimp/TamperMonkey_Userscripts/raw/refs/heads/main/4chan%20background/4chanBackground.user.js)
+[CLICK HERE TO INSTALL](https://github.com/CHooverShrimp/TamperMonkey_Userscripts/raw/refs/heads/main/Youtube%20Short%20Remover/Remove_YT_Shorts.user.js)
