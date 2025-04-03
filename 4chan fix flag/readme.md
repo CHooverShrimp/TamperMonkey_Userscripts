@@ -5,7 +5,8 @@ Flags on 4chan are pixelated, and usually on an atlas; that means sometimes the 
 
 ## Demonstration
 Before
-![image](https://github.com/user-attachments/assets/7e3d0d56-5783-4884-a775-b7b641367c10)
+![image](https://github.com/user-attachments/assets/058d56c8-2df4-4385-aabf-c53c05ad369d)
+
 
 
 After
