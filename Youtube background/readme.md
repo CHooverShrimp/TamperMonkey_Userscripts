@@ -1,7 +1,7 @@
 Youtube Image Background
 ====================
 ## Why?
-Don't you love looking at your waifu while browsing your favourite Chinese cartoon website?
+Don't you love looking at your waifu while browsing your favourite slop website?
 
 ## Demonstration
 ![image](https://github.com/user-attachments/assets/9aa68836-eb2f-4d3b-b696-d7ba5edfa11c)
