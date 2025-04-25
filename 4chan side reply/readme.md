@@ -4,8 +4,7 @@
 Hiroshimoot resurrected 4chan, but he broke the reply system and make it kinda unintuitive. This is my implementation based on my other imageboard
 
 ## Demonstration
-[le fixe.webm](https://github.com/user-attachments/assets/97f07ea5-2369-4a1d-9ad0-7993f334209a)
-
+[le fixe.webm](https://github.com/user-attachments/assets/8d27791a-a4ba-4ccd-a8dc-195b9d78641c)
 
 ## Instruction
 * Install below
